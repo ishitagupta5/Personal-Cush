@@ -1,3 +1,6 @@
+#include "list.h"
+struct list job_list;
+
 /* Set the 'close-on-exec' flag on fd, return error indicator */
 int utils_set_cloexec(int fd);
 

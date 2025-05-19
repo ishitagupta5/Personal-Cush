@@ -68,7 +68,7 @@ struct job {
  * (b) a linked list to support iteration
  */
 #define MAXJOBS (1<<16)
-static struct list job_list;
+struct list job_list;
 
 static struct job * jid2job[MAXJOBS];
 
