@@ -94,5 +94,3 @@ exit:
 - Exits the shell.
 - Implemented in the exit_command() function.
 - Before exiting, it terminates all running or stopped jobs by sending SIGKILL.
-
-
